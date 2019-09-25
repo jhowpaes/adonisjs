@@ -29,7 +29,7 @@ class ForgotPasswordController {
         message => {
           message
             .to(user.email)
-            .from('test@test.com', 'Test | wawa')
+            .from('test@test.com', 'Test | Meu test')
             .subject('Recuperação de senha')
         }
       )
